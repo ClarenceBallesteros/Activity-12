@@ -1,51 +1,49 @@
 header{
     background-color: red;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    background-image: url(./R\ \(4\).jpg);
-    background-repeat: no-repeat;
+    background-color: green;
     background-size: cover;
 }
 header img{
-    width: 100px;
+    width: 90px;
 
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
     color: white;
+    margin-right: 30%;
 }
 nav{
-    text-align: right;
+    text-align: left;
     padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
 }
 nav ul{
     margin: 0;
-    margin: 0;
+    margin-right: 5px;
 }
 nav li{
     display: inline;
-    margin: 20px;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
     text-transform: uppercase;
     border: 1px solid white;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 li:hover{
-    background-color: black;
+    background-color: lightgreen;
     color: antiquewhite;
     padding: 5px;
 }
@@ -54,40 +52,89 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
-body{
-    background-image: url(./cit.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.flex-container{
+    height: 150px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    
 }
-.about1{
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 50px;
-    margin: 25px;
-    font-size: 25px;
-}
-.about2{
-    background-color:  whitesmoke;
-    border: 1px solid black;
-    padding: 50px;
-    margin: 25px;
-    font-size: 25px;
+.flex-item{
+    width: 100px;
+    height: 10;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
 
 }
-.Courses{
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 50px;
-    margin: 25px;
+.item1{
+    order: 1;
+    flex-grow: 4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-div li{
-    font-size: 25px;
+.item2{
+    order: 2;
+    flex-grow: 4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item3{
+    order: 3;
+    flex-grow: 3;
+}
+.about{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3{
-    font-size: 50px;
+    text-align: center;
+}
+.BACT{
+    background-color: yellow;
+}
+body{
+   background-color: lightgreen;
+   background-repeat: no-repeat;
+   background-size: auto;
+   
+}
+.objective{
+    font-size: 20px;
+}
+.Specific{
+    font-size: 20px;
+}
+.learner{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 footer{
-    color: white;
-    font-size: large;
+    text-align: center;
+    margin-top: 20%;
+    background-color: green;
+    padding: 10px;
+    font-size: 20px;
 }
+.opportunities{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: green;
+    padding: 20px;
+}
+.job{
+    text-align: left;
+}
+h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
 
