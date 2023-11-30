@@ -136,5 +136,68 @@ h2{
     text-align: center;
     margin-top: 5px;
 }
+@media(max-width:800px){
+    body{
+        background-color: yellow;
+    }
+    ul li{
+        font-size: 2vw;
+        flex-direction: column;
+    }
+    header img{
+        height: 50px;
+    
+    }
+    h1{
+        font-size: 20px;
+    }
+    ul li{
+        font-size: 10px;  
+        text-decoration: none;
+        flex-direction: column;
+        border-color: white;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .BACT{
+        background-color: green;
+        font-size: 2VW;
+    }
+    .Specific{
+        font-size: 2vw;
+    }
+    .learner{
+        font-size: 2vw;
+    }
+    .flex-container{
+        height: 150px;
+        display: flex;
+        padding: 10px;
+        justify-content: baseline;
+        flex-direction: row;
+    }
+    footer{
+        text-align: center;
+        margin-top: 100%;
+        background-color: green;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .item1{
+        font-size: 2vw;
+    }
+    .objective{
+        font-size: 2vw;
+    }
+    .item3{
+        font-size: 2vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+    div ul{
+        font-size: 1vw;
+    }
 
 
+}
